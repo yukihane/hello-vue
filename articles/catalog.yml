@@ -8,3 +8,4 @@ CHAPS:
 
 POSTDEF:
   - hello-vue_postdef.re
+  - profile.re

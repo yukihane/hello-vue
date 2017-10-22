@@ -154,9 +154,9 @@ colophon: true
 # backcover: null
 
 # プロフィールページファイル  (PDFMaker向けにはLaTeXソース断片、EPUBMaker向けにはHTMLファイル)。ファイル名を指定すると著者紹介として入る
-# profile: null
+profile: profile.re
 # プロフィールページの目次上の見出し
-# profiletitle: 著者紹介
+profiletitle: 著者紹介
 
 # 広告ファイル。ファイル名を指定すると広告として入る (PDFMaker向けにはLaTeXソース断片、EPUBMaker向けにはHTMLファイル)
 # advfile: null
