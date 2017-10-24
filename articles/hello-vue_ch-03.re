@@ -603,6 +603,26 @@ Vue.js はコンポーネントシステムを備えています。機能ごと�
 
 === コンポーネントの書式
 
+シンプルに表示だけを行うコンポーネントは以下のように書きます。
+
+//emlist[v-component_01.js][javascript]{
+Vue.component('item', {
+  template: '<div>item</div>'
+})
+//}
+
+このコンポーネントを利用する際は、Vue.js によってバインドされているDOMに以下のように書きます。
+
+//emlist[template.html][html]{
+<h1>Hello Vue !!</h1>
+<!-- #app にマウントされているとします -->
+<div id="app">
+  <item></item>
+</div>
+//}
+
+Web Components のカスタム要素のように利用することが可能です。
+
 === props
 
 == まとめ
