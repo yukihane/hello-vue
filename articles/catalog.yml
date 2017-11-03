@@ -5,6 +5,8 @@ CHAPS:
   - hello-vue_ch-02.re
   - hello-vue_ch-03.re
   - hello-vue_ch-04.re
+  - hello-vue_ch-05.re
+  - hello-vue_ch-06.re
 
 POSTDEF:
   - hello-vue_postdef.re
