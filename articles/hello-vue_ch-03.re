@@ -45,7 +45,7 @@ Vue.js はインスタンスのライフサイクルごとに呼ばれるフッ�
 //emlist[hook.js][javascript]{
 new Vue({
   created: function () {
-    // ここはインスタンスが作際された後に呼ばれる
+    // ここはインスタンスが作成された後に呼ばれる
     console.log('created')
   }
 })
@@ -236,7 +236,6 @@ new Vue({
   </ul>
   <h2>
     Object
-  </h2>
   </h2>
   <ul v-for="(val, key, index) in object">
     <li>
@@ -558,7 +557,7 @@ new Vue({
     <option>榛名</option>
     <option>霧島</option>
   </select>
-  <span>秘書官: {{ hisyo }}</span>
+  <span>秘書艦: {{ hisyo }}</span>
 </div>
 //}
 
